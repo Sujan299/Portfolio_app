@@ -5,14 +5,14 @@
         "imgUrl": "https://dl-file.cyberlink.com/web/upload-file/learning-center/enu/2023/11/Thumbnail_20231103003018742.jpg",
         "techStacks": "HTML, CSS and + ",
         "githubLink": "https://github.com/Sujan299/dressing-sense",
-        "liveLink": "https://"
+        "liveLink": "https://blog-orbit.vercel.app"
     },
     {
         "id": 2,
-        "title": "NPL news application",
+        "title": "BlogOrbit",
         "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcXIMNLyX4OaYpEQkjrrcLw9MBeP58i9HuRA&s",
         "techStacks": "JWT, SOCKET.io, OAUTH, MERN",
         "githubLink": "https://github.com/Sujan299/NPL-news",
-        "liveLink": "https://"
+        "liveLink": "https://blog-orbit.vercel.app/"
     }
 ]

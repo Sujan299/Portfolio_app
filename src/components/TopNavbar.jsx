@@ -43,7 +43,7 @@ export default function TopNavbar() {
                     <hr className='text-white text-opacity-60 mr-14' />
                     <ul>
                         <h2 className='font-semibold mb-4 text-xl text-green-500'>Platforms</h2>
-                        <li className='mb-6'><Link to="https://github.com/Sujan299" target='_blank' className='transition-all ease-in-out duration-150 hover:pl-2 h-6 flex items-center'><Icon icon="cib:hackerrank" className='inline mr-1 text-emerald-500' height={24} />Hackerrank</Link></li>
+                        <li className='mb-6'><Link to="https://www.hackerrank.com/profile/mrsujan321" target='_blank' className='transition-all ease-in-out duration-150 hover:pl-2 h-6 flex items-center'><Icon icon="cib:hackerrank" className='inline mr-1 text-emerald-500' height={24} />Hackerrank</Link></li>
                         <li className='mb-6'><Link to="https://www.linkedin.com/in/sujan-chaudhary-a8a549208/" target='_blank' className='transition-all ease-in-out duration-150 hover:pl-2 h-6 flex items-center'><Icon icon="cib:leetcode" className='inline mr-1 text-indigo-500' height={24} />Leetcode</Link></li>
                     </ul>
                 </nav>}
