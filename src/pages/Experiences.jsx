@@ -3,28 +3,40 @@ import experiences from '../assets/experiences.json'
 
 const Experiences = () => {
     return (<>
-        <div className='ml-11 mr-11 mb-7 text-2xl text-white text-opacity-100 font-semibold'>Experiences</div>
-        <div className='mb-7'>
-            {
-                experiences.map((exp) => {
-                    return <div key={exp.id} className='mx-11 bg-medium_dark md:h-[50vh] sm:h-[70vh] h-[90vh] rounded-lg p-4 mb-8'>
-                        <div className='flex justify-between'>
-                            <p className='text-2xl font-semibold'>{exp.companyName}</p>
-                            <p>{exp.period}</p>
-                        </div>
-                        <p className='my-2'>Role : <span className='underline font-semibold text-blue-500'>{exp.role}</span></p>
-                        <p className='mt-6 text-lg'>{exp.desc}</p>
-                        <ul className='my-2 list-disc list-inside'>
-                            {
-                                exp.achievements.map((achive)=>{
-                                    return <li key={achive.id}>{achive.desc}</li>
-                                })
-                            }
-                        </ul>
-                        <p className='text-2xl mt-6'>From owner : <span className='playFairFont'>"{exp.companyThinks}"</span></p>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+            {experiences.map((exp) => (
+                <div 
+                    key={exp.id} 
+                    className="mx-11 bg-medium_dark md:h-[60vh] sm:h-[70vh] h-[90vh] rounded-2xl shadow-xl p-6 mb-8 border border-gray-700 hover:shadow-2xl transition-shadow duration-300">
+
+                    {/* Header Section */}
+                    <div className="flex justify-between items-center border-b border-gray-600 pb-4 mb-4">
+                        <p className="text-2xl font-bold text-white">{exp.companyName}</p>
+                        <p className="text-gray-400 text-lg">{exp.period}</p>
                     </div>
-                })
-            }
+
+                    {/* Role Section */}
+                    <p className="my-2 text-lg text-gray-300">Role: 
+                        <span className="underline font-semibold text-blue-400 ml-1">{exp.role}</span>
+                    </p>
+
+                    {/* Description Section */}
+                    <p className="mt-6 text-lg text-gray-200 leading-relaxed">{exp.desc}</p>
+
+                    {/* Achievements Section */}
+                    <ul className="my-4 list-disc list-inside space-y-2">
+                        {exp.achievements.map((achieve) => (
+                            <li key={achieve.id} className="text-gray-300">{achieve.desc}</li>
+                        ))}
+                    </ul>
+
+                    {/* Owner Quote Section */}
+                    <p className="text-2xl mt-6 text-gray-100 font-semibold">
+                        From Owner: 
+                        <span className="italic playFairFont text-blue-300 ml-2">"{exp.companyThinks}"</span>
+                    </p>
+                </div>
+            ))}
         </div>
     </>
     )

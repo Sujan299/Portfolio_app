@@ -4,25 +4,21 @@
         "companyName": "Tech Skills | Coach",
         "role": "MERN Tutor",
         "period":"July 2024 - Dec 2024",
-        "desc": "I have successfully taught three batches of MERN. Teaching MERN to students has helped me strengthen my basics, enabling me to learn new concepts quickly.",
+        "desc": "I have successfully taught three batches of MERN & while teaching MERN to students it has helped me to strengthen my basics from core, also I learned to adapt new concepts quickly.",
         "achievements": [
             {
                 "id": 1,
-                "desc": "I am achivement 1"
+                "desc": "Gained basics of core javascript concepts while in cycle of teaching students."
             },
             {
-                "id": 1,
-                "desc": "I am achivement 2"
+                "id": 2,
+                "desc": "Learned to find out the solution with structured pattern."
             },
             {
-                "id": 1,
-                "desc": "I am achivement 3"
-            },
-            {
-                "id": 1,
-                "desc": "I am achivement 4"
+                "id": 3,
+                "desc": "Improved communication skill making students comfortable."
             }
         ],
-        "companyThinks": "Sujan play vital role here as mern stack tutor"
+        "companyThinks": "Sujan played vital role here as mern stack tutor"
     }
 ]

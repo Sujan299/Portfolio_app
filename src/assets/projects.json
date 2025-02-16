@@ -1,17 +1,25 @@
 [
     {
         "id": 1,
-        "title": "AI | Dressing sense",
-        "imgUrl": "https://dl-file.cyberlink.com/web/upload-file/learning-center/enu/2023/11/Thumbnail_20231103003018742.jpg",
-        "techStacks": "HTML, CSS and + ",
-        "githubLink": "https://github.com/Sujan299/dressing-sense",
-        "liveLink": "https://blog-orbit.vercel.app"
+        "title": "Sujan.dev blog",
+        "imgUrl": "https://64.media.tumblr.com/themes/screenshots/sonBy1pX1YoDmioG_o8.png",
+        "techStacks": "openai, React, node, express, mongodb, OAUTH",
+        "githubLink": "https://github.com/Sujan299/blog_app",
+        "liveLink": ""
     },
     {
         "id": 2,
-        "title": "BlogOrbit",
+        "title": "Typing application",
+        "imgUrl": "https://www.blog.typingspeedtestonline.com/wp-content/uploads/2021/11/screen-0.jpg",
+        "techStacks": "Web socket, SOCKET.io, OAUTH, MERN",
+        "githubLink": "https://github.com/Sujan299/type_fast_app",
+        "liveLink": ""
+    },
+    {
+        "id": 3,
+        "title": "News App",
         "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcXIMNLyX4OaYpEQkjrrcLw9MBeP58i9HuRA&s",
-        "techStacks": "JWT, SOCKET.io, OAUTH, MERN",
+        "techStacks": "JWT, Web socket, OAUTH, MERN stack",
         "githubLink": "https://github.com/Sujan299/NPL-news",
         "liveLink": "https://blog-orbit.vercel.app/"
     }
