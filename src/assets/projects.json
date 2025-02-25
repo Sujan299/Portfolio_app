@@ -5,7 +5,7 @@
         "imgUrl": "https://64.media.tumblr.com/themes/screenshots/sonBy1pX1YoDmioG_o8.png",
         "techStacks": "openai, React, node, express, mongodb, OAUTH",
         "githubLink": "https://github.com/Sujan299/blog_app",
-        "liveLink": ""
+        "liveLink": "https://blog-app-xi-henna.vercel.app/"
     },
     {
         "id": 2,
