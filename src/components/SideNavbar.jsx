@@ -15,7 +15,7 @@ export default function SideNavbar() {
                 <li className='mb-6'><Link to="/skills" className={`${pathname === '/skills' ? 'opacity-50 text-sm' : ''} transition-all ease-in-out duration-150 hover:pl-2 h-6 flex items-center`}><Icon icon="skill-icons:actix-dark" className='inline mr-1' height={24} />Skills</Link></li>
                 <li className='mb-6'><Link to="/more-projects" className={`${pathname === '/more-projects' ? "opacity-50 text-sm" : ""} transition-all ease-in-out duration-150 hover:pl-2 h-6 flex items-center`}><Icon icon="arcticons:zoho-projects" className='inline mr-1' height={24} />More-projects</Link></li>
                 <li className='mb-6'><Link to="/experiences" className={`${pathname === '/experiences' ? "opacity-50 text-sm" : ""} transition-all ease-in-out duration-150 hover:pl-2 h-6 flex items-center`}><Icon icon="ph:code" className='inline mr-1' height={24} />Experiences</Link></li>
-                <li className='mb-6'><Link to="/blogs" className={`${pathname === '/blogs' ? "opacity-50 text-sm" : ""} transition-all ease-in-out duration-150 hover:pl-2 h-6 flex items-center`}><Icon icon="gridicons:trending" className='inline mr-1' height={24} />Blogs</Link></li>
+                <li className='mb-6'><Link to="https://blog-app-xi-henna.vercel.app" target="_blank" className={`${pathname === '/blogs' ? "opacity-50 text-sm" : ""} transition-all ease-in-out duration-150 hover:pl-2 h-6 flex items-center`}><Icon icon="gridicons:trending" className='inline mr-1' height={24} />Blogs</Link></li>
             </ul>
             <hr className='my-5 text-white text-opacity-60 mr-14' />
             <ul>
